@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.epickup"
+    android:versionCode="100"
+    android:versionName="1.0"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EPickup">
+        <activity
+            android:name=".forgotPassword"
+            android:label="Reset Password" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Payment" />
+        <activity
+            android:name=".ViewRestaurantActivity"
+            android:label="Restaurant" />
+        <activity
+            android:name=".feedbackActivity"
+            android:label="Feedback" />
+        <activity
+            android:name=".OrdersReceivedActivity"
+            android:label="Orders Received" />
+        <activity
+            android:name=".SearchRestaurantActivity"
+            android:label="Search Restaurant" />
+        <activity
+            android:name=".ViewOrdersActivity"
+            android:label="View Orders" />
+        <activity
+            android:name=".AddOrEditItemsActivity"
+            android:label="Add or Edit Items" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".register"
+            android:label="Register" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
